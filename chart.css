@@ -1,0 +1,129 @@
+html , body {
+    padding: 0;
+    margin: 0;
+    background-color: #D6DAFC;
+}
+
+
+.oo-chart {
+    width: 225px;
+    padding: 15px;
+    background-color: #fff;
+    text-align: center;
+    font-size: 0;
+    /* aşağıdaki satırlar denemek için, silinmeli */
+    float:left;
+    margin: 100px 20px;
+}
+
+.oo-chart , .oo-chart div {
+    height: 80px;
+    line-height: 80px;
+}
+
+.oo-chart > div {
+    margin: 0px 3px;
+    cursor: default;
+}
+
+.oo-chart div  {
+    width: 7px;
+    vertical-align: bottom;
+    display: inline-block;
+}
+
+
+.oo-chart-1 > div > div {
+    background-color: #333;
+}
+
+.oo-chart-1 > div:hover div {
+    background-color: #262626;
+}
+
+
+.oo-chart > div {
+    margin: 0px 2px;
+}
+
+.oo-chart-2  div {
+    width: 14px;
+}
+
+.oo-chart-2 > div > div {
+    background-color: #00B2D6;
+}
+
+.oo-chart-2 > div:hover div {
+    background-color: #0099D6;
+}
+
+
+.oo-chart-3  div {
+    width: 18px;
+}
+
+.oo-chart-3 > div > div {
+    background-color: #D32E2E;
+}
+
+.oo-chart-3 > div:hover div {
+    background-color: #C94F3C;
+}
+
+
+
+.oo-chart-4 > div > div {
+    background-color: #3E995C;
+}
+
+.oo-chart-4 > div:hover div {
+    background-color: #38894F;
+}
+
+
+
+.oo-tooltip {
+    display: none;
+    height: auto;
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    background: rgba(63,63,63,0.9);
+    padding: 6px 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: #fff;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */  
+    cursor: default;
+    z-index: 99999;
+}
+
+.oo-tooltip p {
+    line-height: 12px;
+    font-size: 10px;
+    top: 0px;
+    left: 0px;
+    margin:0px;
+    padding: 0px;
+}
+
+.oo-tooltip-blue {
+    background: rgba(0 , 153 , 214 , 0.9);
+    border:1px solid rgba(0 , 153 , 214 , 0.9);
+}
+
+
+.oo-tooltip-red {
+    background: rgba(0 , 0 , 0 , 0.9);
+    border: 1px solid rgba(0 , 0 , 0 , 1);
+}
+
+
+.oo-tooltip-green {
+    background: rgba(56 , 137 , 79 , 0.9);
+    border:1px solid rgba(56 , 137 , 79 , 1);
+}
